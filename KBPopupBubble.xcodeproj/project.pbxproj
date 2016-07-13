@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		484B7D961D3615A100718734 /* KBPopupBubbleFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 484B7D951D3615A100718734 /* KBPopupBubbleFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		484B7D9A1D3615A100718734 /* KBPopupBubbleFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 484B7D931D3615A100718734 /* KBPopupBubbleFramework.framework */; };
+		484B7D9B1D3615A100718734 /* KBPopupBubbleFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 484B7D931D3615A100718734 /* KBPopupBubbleFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		484B7DA81D3615C000718734 /* KBPopupBubbleView+Animations.h in Headers */ = {isa = PBXBuildFile; fileRef = 484B7DA11D3615C000718734 /* KBPopupBubbleView+Animations.h */; };
+		484B7DA91D3615C000718734 /* KBPopupBubbleView+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = 484B7DA21D3615C000718734 /* KBPopupBubbleView+Animations.m */; };
+		484B7DAA1D3615C000718734 /* KBPopupBubbleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 484B7DA31D3615C000718734 /* KBPopupBubbleView.h */; };
+		484B7DAB1D3615C000718734 /* KBPopupBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 484B7DA41D3615C000718734 /* KBPopupBubbleView.m */; };
+		484B7DAC1D3615C000718734 /* KBPopupDrawableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 484B7DA51D3615C000718734 /* KBPopupDrawableView.h */; };
+		484B7DAD1D3615C000718734 /* KBPopupDrawableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 484B7DA61D3615C000718734 /* KBPopupDrawableView.m */; };
+		484B7DAE1D3615C000718734 /* KBPopupHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 484B7DA71D3615C000718734 /* KBPopupHeaders.h */; };
 		864B8F71171539AD0054B9AB /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 864B8F6D171539AD0054B9AB /* button.png */; };
 		864B8F72171539AD0054B9AB /* button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 864B8F6E171539AD0054B9AB /* button@2x.png */; };
 		864B8F73171539AD0054B9AB /* buttonHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 864B8F6F171539AD0054B9AB /* buttonHighlighted.png */; };
@@ -28,15 +38,46 @@
 		86ED2F2817109B9C0097EC66 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86ED2F2717109B9C0097EC66 /* Default-568h@2x.png */; };
 		86ED2F2B17109B9C0097EC66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86ED2F2A17109B9C0097EC66 /* ViewController.m */; };
 		86ED2F2E17109B9C0097EC66 /* ViewController_iPhone4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86ED2F2C17109B9C0097EC66 /* ViewController_iPhone4.xib */; };
-		86ED2F3717109BE20097EC66 /* KBPopupBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86ED2F3617109BE20097EC66 /* KBPopupBubbleView.m */; };
 		86ED2F3A17109BF80097EC66 /* PanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86ED2F3917109BF80097EC66 /* PanelViewController.m */; };
 		86ED2F3C1710A41A0097EC66 /* PanelViewController_iPhone4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86ED2F3B1710A41A0097EC66 /* PanelViewController_iPhone4.xib */; };
 		86ED2F441711359D0097EC66 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86ED2F431711359C0097EC66 /* QuartzCore.framework */; };
-		86ED2F4A1711465C0097EC66 /* KBPopupDrawableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86ED2F491711465C0097EC66 /* KBPopupDrawableView.m */; };
-		86ED2F4D171337C90097EC66 /* KBPopupBubbleView+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = 86ED2F4C171337C90097EC66 /* KBPopupBubbleView+Animations.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		484B7D981D3615A100718734 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86ED2F0617109B9B0097EC66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 484B7D921D3615A100718734;
+			remoteInfo = KBPopupBubbleFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		484B7D9F1D3615A100718734 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				484B7D9B1D3615A100718734 /* KBPopupBubbleFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		484B7D931D3615A100718734 /* KBPopupBubbleFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KBPopupBubbleFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		484B7D951D3615A100718734 /* KBPopupBubbleFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBPopupBubbleFramework.h; sourceTree = "<group>"; };
+		484B7D971D3615A100718734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		484B7DA11D3615C000718734 /* KBPopupBubbleView+Animations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KBPopupBubbleView+Animations.h"; sourceTree = "<group>"; };
+		484B7DA21D3615C000718734 /* KBPopupBubbleView+Animations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KBPopupBubbleView+Animations.m"; sourceTree = "<group>"; };
+		484B7DA31D3615C000718734 /* KBPopupBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBPopupBubbleView.h; sourceTree = "<group>"; };
+		484B7DA41D3615C000718734 /* KBPopupBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBPopupBubbleView.m; sourceTree = "<group>"; };
+		484B7DA51D3615C000718734 /* KBPopupDrawableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBPopupDrawableView.h; sourceTree = "<group>"; };
+		484B7DA61D3615C000718734 /* KBPopupDrawableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBPopupDrawableView.m; sourceTree = "<group>"; };
+		484B7DA71D3615C000718734 /* KBPopupHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBPopupHeaders.h; sourceTree = "<group>"; };
 		864B8F6D171539AD0054B9AB /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button.png; path = Support/button.png; sourceTree = "<group>"; };
 		864B8F6E171539AD0054B9AB /* button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button@2x.png"; path = "Support/button@2x.png"; sourceTree = "<group>"; };
 		864B8F6F171539AD0054B9AB /* buttonHighlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = buttonHighlighted.png; path = Support/buttonHighlighted.png; sourceTree = "<group>"; };
@@ -63,25 +104,26 @@
 		86ED2F2917109B9C0097EC66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		86ED2F2A17109B9C0097EC66 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		86ED2F2D17109B9C0097EC66 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone4.xib; sourceTree = "<group>"; };
-		86ED2F3517109BE20097EC66 /* KBPopupBubbleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KBPopupBubbleView.h; path = KBPopupBubble/KBPopupBubbleView.h; sourceTree = "<group>"; };
-		86ED2F3617109BE20097EC66 /* KBPopupBubbleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KBPopupBubbleView.m; path = KBPopupBubble/KBPopupBubbleView.m; sourceTree = "<group>"; };
 		86ED2F3817109BF80097EC66 /* PanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanelViewController.h; sourceTree = "<group>"; };
 		86ED2F3917109BF80097EC66 /* PanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanelViewController.m; sourceTree = "<group>"; };
 		86ED2F3B1710A41A0097EC66 /* PanelViewController_iPhone4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PanelViewController_iPhone4.xib; sourceTree = "<group>"; };
-		86ED2F3D1710FA920097EC66 /* KBPopupHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KBPopupHeaders.h; path = KBPopupBubble/KBPopupHeaders.h; sourceTree = "<group>"; };
 		86ED2F431711359C0097EC66 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		86ED2F481711465C0097EC66 /* KBPopupDrawableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KBPopupDrawableView.h; path = KBPopupBubble/KBPopupDrawableView.h; sourceTree = "<group>"; };
-		86ED2F491711465C0097EC66 /* KBPopupDrawableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KBPopupDrawableView.m; path = KBPopupBubble/KBPopupDrawableView.m; sourceTree = "<group>"; };
-		86ED2F4B171337C80097EC66 /* KBPopupBubbleView+Animations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "KBPopupBubbleView+Animations.h"; path = "KBPopupBubble/KBPopupBubbleView+Animations.h"; sourceTree = "<group>"; };
-		86ED2F4C171337C90097EC66 /* KBPopupBubbleView+Animations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "KBPopupBubbleView+Animations.m"; path = "KBPopupBubble/KBPopupBubbleView+Animations.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		484B7D8F1D3615A100718734 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		86ED2F0B17109B9B0097EC66 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				86ED2F1217109B9B0097EC66 /* UIKit.framework in Frameworks */,
+				484B7D9A1D3615A100718734 /* KBPopupBubbleFramework.framework in Frameworks */,
 				86ED2F1417109B9B0097EC66 /* Foundation.framework in Frameworks */,
 				86ED2F1617109B9B0097EC66 /* CoreGraphics.framework in Frameworks */,
 				86ED2F441711359D0097EC66 /* QuartzCore.framework in Frameworks */,
@@ -91,6 +133,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		484B7D941D3615A100718734 /* KBPopupBubbleFramework */ = {
+			isa = PBXGroup;
+			children = (
+				484B7DA01D3615C000718734 /* KBPopupBubble */,
+				484B7D951D3615A100718734 /* KBPopupBubbleFramework.h */,
+				484B7D971D3615A100718734 /* Info.plist */,
+			);
+			path = KBPopupBubbleFramework;
+			sourceTree = "<group>";
+		};
+		484B7DA01D3615C000718734 /* KBPopupBubble */ = {
+			isa = PBXGroup;
+			children = (
+				484B7DA11D3615C000718734 /* KBPopupBubbleView+Animations.h */,
+				484B7DA21D3615C000718734 /* KBPopupBubbleView+Animations.m */,
+				484B7DA31D3615C000718734 /* KBPopupBubbleView.h */,
+				484B7DA41D3615C000718734 /* KBPopupBubbleView.m */,
+				484B7DA51D3615C000718734 /* KBPopupDrawableView.h */,
+				484B7DA61D3615C000718734 /* KBPopupDrawableView.m */,
+				484B7DA71D3615C000718734 /* KBPopupHeaders.h */,
+			);
+			path = KBPopupBubble;
+			sourceTree = "<group>";
+		};
 		864B8F641714D0960054B9AB /* PanelViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +193,7 @@
 		86ED2F0517109B9B0097EC66 = {
 			isa = PBXGroup;
 			children = (
+				484B7D941D3615A100718734 /* KBPopupBubbleFramework */,
 				86ED2F1017109B9B0097EC66 /* Frameworks */,
 				86ED2F1717109B9B0097EC66 /* KBPopupBubble */,
 				86ED2F0F17109B9B0097EC66 /* Products */,
@@ -137,6 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				86ED2F0E17109B9B0097EC66 /* KBPopupBubble.app */,
+				484B7D931D3615A100718734 /* KBPopupBubbleFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,7 +223,6 @@
 		86ED2F1717109B9B0097EC66 /* KBPopupBubble */ = {
 			isa = PBXGroup;
 			children = (
-				86ED2F3417109BC80097EC66 /* KBPopupBubble */,
 				869B875F1714CD6400BE3016 /* ViewController */,
 				864B8F641714D0960054B9AB /* PanelViewController */,
 				864B8F6C1715399F0054B9AB /* Support */,
@@ -184,23 +251,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		86ED2F3417109BC80097EC66 /* KBPopupBubble */ = {
-			isa = PBXGroup;
-			children = (
-				86ED2F3D1710FA920097EC66 /* KBPopupHeaders.h */,
-				86ED2F3517109BE20097EC66 /* KBPopupBubbleView.h */,
-				86ED2F3617109BE20097EC66 /* KBPopupBubbleView.m */,
-				86ED2F4B171337C80097EC66 /* KBPopupBubbleView+Animations.h */,
-				86ED2F4C171337C90097EC66 /* KBPopupBubbleView+Animations.m */,
-				86ED2F481711465C0097EC66 /* KBPopupDrawableView.h */,
-				86ED2F491711465C0097EC66 /* KBPopupDrawableView.m */,
-			);
-			name = KBPopupBubble;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		484B7D901D3615A100718734 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484B7DAA1D3615C000718734 /* KBPopupBubbleView.h in Headers */,
+				484B7DAC1D3615C000718734 /* KBPopupDrawableView.h in Headers */,
+				484B7DA81D3615C000718734 /* KBPopupBubbleView+Animations.h in Headers */,
+				484B7DAE1D3615C000718734 /* KBPopupHeaders.h in Headers */,
+				484B7D961D3615A100718734 /* KBPopupBubbleFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		484B7D921D3615A100718734 /* KBPopupBubbleFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 484B7D9E1D3615A100718734 /* Build configuration list for PBXNativeTarget "KBPopupBubbleFramework" */;
+			buildPhases = (
+				484B7D8E1D3615A100718734 /* Sources */,
+				484B7D8F1D3615A100718734 /* Frameworks */,
+				484B7D901D3615A100718734 /* Headers */,
+				484B7D911D3615A100718734 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KBPopupBubbleFramework;
+			productName = KBPopupBubbleFramework;
+			productReference = 484B7D931D3615A100718734 /* KBPopupBubbleFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		86ED2F0D17109B9B0097EC66 /* KBPopupBubble */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86ED2F3117109B9C0097EC66 /* Build configuration list for PBXNativeTarget "KBPopupBubble" */;
@@ -208,10 +294,12 @@
 				86ED2F0A17109B9B0097EC66 /* Sources */,
 				86ED2F0B17109B9B0097EC66 /* Frameworks */,
 				86ED2F0C17109B9B0097EC66 /* Resources */,
+				484B7D9F1D3615A100718734 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				484B7D991D3615A100718734 /* PBXTargetDependency */,
 			);
 			name = KBPopupBubble;
 			productName = KBPopupBubble;
@@ -226,6 +314,11 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Paul Sholtz";
+				TargetAttributes = {
+					484B7D921D3615A100718734 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
 			};
 			buildConfigurationList = 86ED2F0917109B9B0097EC66 /* Build configuration list for PBXProject "KBPopupBubble" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -240,11 +333,19 @@
 			projectRoot = "";
 			targets = (
 				86ED2F0D17109B9B0097EC66 /* KBPopupBubble */,
+				484B7D921D3615A100718734 /* KBPopupBubbleFramework */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		484B7D911D3615A100718734 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		86ED2F0C17109B9B0097EC66 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -271,6 +372,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		484B7D8E1D3615A100718734 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484B7DAB1D3615C000718734 /* KBPopupBubbleView.m in Sources */,
+				484B7DAD1D3615C000718734 /* KBPopupDrawableView.m in Sources */,
+				484B7DA91D3615C000718734 /* KBPopupBubbleView+Animations.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		86ED2F0A17109B9B0097EC66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -278,14 +389,19 @@
 				86ED2F1E17109B9C0097EC66 /* main.m in Sources */,
 				86ED2F2217109B9C0097EC66 /* AppDelegate.m in Sources */,
 				86ED2F2B17109B9C0097EC66 /* ViewController.m in Sources */,
-				86ED2F3717109BE20097EC66 /* KBPopupBubbleView.m in Sources */,
 				86ED2F3A17109BF80097EC66 /* PanelViewController.m in Sources */,
-				86ED2F4A1711465C0097EC66 /* KBPopupDrawableView.m in Sources */,
-				86ED2F4D171337C90097EC66 /* KBPopupBubbleView+Animations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		484B7D991D3615A100718734 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 484B7D921D3615A100718734 /* KBPopupBubbleFramework */;
+			targetProxy = 484B7D981D3615A100718734 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		869B87511713EA0900BE3016 /* ViewController_iPhone5.xib */ = {
@@ -315,6 +431,82 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		484B7D9C1D3615A100718734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = KBPopupBubbleFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.intel.KBPopupBubbleFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		484B7D9D1D3615A100718734 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = KBPopupBubbleFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.intel.KBPopupBubbleFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		86ED2F2F17109B9C0097EC66 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -377,7 +569,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KBPopupBubble/KBPopupBubble-Prefix.pch";
 				INFOPLIST_FILE = "KBPopupBubble/KBPopupBubble-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -390,7 +583,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KBPopupBubble/KBPopupBubble-Prefix.pch";
 				INFOPLIST_FILE = "KBPopupBubble/KBPopupBubble-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -400,6 +594,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		484B7D9E1D3615A100718734 /* Build configuration list for PBXNativeTarget "KBPopupBubbleFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				484B7D9C1D3615A100718734 /* Debug */,
+				484B7D9D1D3615A100718734 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		86ED2F0917109B9B0097EC66 /* Build configuration list for PBXProject "KBPopupBubble" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

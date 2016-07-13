@@ -25,6 +25,7 @@
 //
 
 #import "KBPopupHeaders.h"
+#import <UIKit/UIKit.h>
 
 typedef void (^KBPopupBubbleCompletionBlock)(void);
 

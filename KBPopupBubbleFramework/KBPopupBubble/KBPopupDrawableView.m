@@ -47,7 +47,7 @@
                 break;
             case kKBPopupPointerSideBottom:
                 CGContextMoveToPoint(context, -kKBPopupArrowAdjustment, 0.0f);
-                CGContextAddLineToPoint(context, kKBPopupArrowWidth/2.0f, kKBPopupArrowHeight + kKBPopupArrowAdjustment);
+                CGContextAddLineToPoint(context, kKBPopupArrowWidth/4.0f, kKBPopupArrowHeight + kKBPopupArrowAdjustment);
                 CGContextAddLineToPoint(context, kKBPopupArrowWidth + kKBPopupArrowAdjustment, 0.0f);
                 break;
             case kKBPopupPointerSideLeft:

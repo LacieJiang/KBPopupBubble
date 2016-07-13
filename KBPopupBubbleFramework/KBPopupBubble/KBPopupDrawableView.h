@@ -32,7 +32,7 @@
 // (1) Works best if kKBArrowHeight matches kKBDefaultMargin
 // (2) kKBPopupArrowAdjustment is a slight adjustment to make animations work more smoothly
 //
-#define kKBPopupArrowMargin     18.0f
+#define kKBPopupArrowMargin     3.0f
 #define kKBPopupArrowWidth      16.0f
 #define kKBPopupArrowHeight     8.0f
 #define kKBPopupArrowAdjustment 1.0f
