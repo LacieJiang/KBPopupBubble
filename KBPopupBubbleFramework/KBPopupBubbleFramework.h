@@ -17,3 +17,4 @@ FOUNDATION_EXPORT const unsigned char KBPopupBubbleFrameworkVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <KBPopupBubbleFramework/PublicHeader.h>
 
 
+#import <KBPopupBubbleFramework/KBPopupBubbleView.h>
