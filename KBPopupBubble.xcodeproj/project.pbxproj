@@ -12,7 +12,7 @@
 		484B7D9B1D3615A100718734 /* KBPopupBubbleFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 484B7D931D3615A100718734 /* KBPopupBubbleFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		484B7DA81D3615C000718734 /* KBPopupBubbleView+Animations.h in Headers */ = {isa = PBXBuildFile; fileRef = 484B7DA11D3615C000718734 /* KBPopupBubbleView+Animations.h */; };
 		484B7DA91D3615C000718734 /* KBPopupBubbleView+Animations.m in Sources */ = {isa = PBXBuildFile; fileRef = 484B7DA21D3615C000718734 /* KBPopupBubbleView+Animations.m */; };
-		484B7DAA1D3615C000718734 /* KBPopupBubbleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 484B7DA31D3615C000718734 /* KBPopupBubbleView.h */; };
+		484B7DAA1D3615C000718734 /* KBPopupBubbleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 484B7DA31D3615C000718734 /* KBPopupBubbleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		484B7DAB1D3615C000718734 /* KBPopupBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 484B7DA41D3615C000718734 /* KBPopupBubbleView.m */; };
 		484B7DAC1D3615C000718734 /* KBPopupDrawableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 484B7DA51D3615C000718734 /* KBPopupDrawableView.h */; };
 		484B7DAD1D3615C000718734 /* KBPopupDrawableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 484B7DA61D3615C000718734 /* KBPopupDrawableView.m */; };
@@ -601,6 +601,7 @@
 				484B7D9D1D3615A100718734 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86ED2F0917109B9B0097EC66 /* Build configuration list for PBXProject "KBPopupBubble" */ = {
 			isa = XCConfigurationList;
